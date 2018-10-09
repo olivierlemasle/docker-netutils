@@ -5,4 +5,4 @@ RUN apt-get update && \
 	apt-get -y install curl wget && \
 	apt-get -y install traceroute netcat dnsutils
 
-ENTRYPOINT ["/bin/bash"]
+CMD ["/bin/bash"]
