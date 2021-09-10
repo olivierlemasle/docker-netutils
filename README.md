@@ -1,5 +1,5 @@
 # Usage
 
-	docker run -it --rm --network=MYNETWORK dersimn/netutils
+    docker run -it --rm --network=MYNETWORK quay.io/olivierlemasle/netutils
 
-    docker run -it --rm --network=MYNETWORK dersimn/netutils ping 8.8.8.8
+    docker run -it --rm --network=MYNETWORK quay.io/olivierlemasle/netutils ping 8.8.8.8
